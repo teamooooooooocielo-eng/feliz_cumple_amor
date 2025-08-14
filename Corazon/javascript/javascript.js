@@ -51,7 +51,7 @@ requestAnimationFrame(animate);
 
 const texto = `Bueno mi amor, aqui solo quiero expresarte un poquito de lo que tu me haces sentir, de lo que tu con esos ojitos hermosos, esa risa contagiosa y ese caracter especial me hacen sentir dia a dia. 
 Como sabrás yo soy muy cursi, y me gusta demostrarte mi cariño. 
-Mi amor, no sé en qué momento de mi vida llegaste al punto en que seas lo primero que pienso cuando me levanto, y lo ultimo antes de dormir, no se en que momento llegaste al punto de cuando no esté en el celular mis pensamientos más frecuentes sean "¿qué me habrás escrito?" "¿que estaras haciendo?", no se en que momento fue que me enamore de ti, creo que fue algo que simplemente ocurrio al estar conociendo a la increible persona que eres, no sé en qué momento te adueñaste completamente de mi corazón pero joder... cómo me encanta eso, tú me encantas hermosa. Gracias por permitirme entrar en tu vida valery, muchas gracias por haberme dado la oportunidad de demostrarte que puedo cambiar, gracias por siempre estar para mi, por los momentos felices y por los momentos tristes o malos, que de ellos aprendemos, gracias por esforzarte en que lo nuestro funcione. Yo te amo con mi vida entera señorita Lopez`;
+Mi amor, no sé en qué momento de mi vida llegaste al punto en que seas lo primero que pienso cuando me levanto, y lo ultimo antes de dormir, no se en que momento llegaste al punto de cuando no esté en el celular mis pensamientos más frecuentes sean "¿qué me habrás escrito?" "¿que estaras haciendo?", no se en que momento fue que me enamore de ti, creo que fue algo que simplemente ocurrio al estar conociendo a la increible persona que eres, no sé en qué momento te adueñaste completamente de mi corazón pero joder... cómo me encanta eso, tú me encantas hermosa. Gracias por permitirme entrar en tu vida valery, muchas gracias por haberme dado la oportunidad de demostrarte que puedo cambiar, gracias por siempre estar para mi, por los momentos felices y tambien por los momentos malos, aquellas peleas, aquellos dramas, discusiones y enojos que de ellos aprendemos y nos conocemos más, gracias por esforzarte en que lo nuestro funcione mi amor. Yo te amo con mi vida entera señorita Lopez`;
 
 const elemento = document.getElementById('texto-maquina');
 let i = 0;
@@ -99,4 +99,5 @@ function crearOnda() {
 
 // Crear una onda cada 700 ms aprox.
 setInterval(crearOnda, 2000);
+
 
