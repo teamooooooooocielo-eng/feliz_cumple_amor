@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Con Fuente Mea Culpa</title>
+  <link href="https://fonts.googleapis.com/css2?family=Mea+Culpa&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles/css" />
+</head>
+<body>
+  <audio autoplay loop>
+  <source src="music.mp3" type="audio/mpeg">
+  Tu navegador no soporta audio.
+</audio>
+  <div class="fondo-ondas"></div>
+  <div class="contenedor">
+    <svg viewBox="0 0 200 200" width="300" height="300" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <mask id="reloj-mask">
+          <rect width="200" height="200" fill="black" />
+          <path fill="white" id="sector" transform="translate(100,100)" />
+        </mask>
+      </defs>
+      <image
+        href="img/fondo-removebg-preview.png"
+        width="200"
+        height="200"
+        mask="url(#reloj-mask)"
+      />
+    </svg>
+    <p class="mensaje">Te Amo Preciosa.</p>
+    <p id="texto-maquina" class="maquina-texto"></p>
+    </div>
+
+  <script src="javascript/javascript.js"></script>
+</body>
+</html>
